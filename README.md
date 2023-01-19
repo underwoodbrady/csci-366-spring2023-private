@@ -34,8 +34,8 @@ Next, you should add the class repository as an upstream git repo:
 ```bash
 $ cd csci-366-spring2023-private
 $ git remote add upstream https://github.com/msu/csci-366-spring2023.git
-$ git pull upstream main
-$ git push origin main
+$ git pull upstream master
+$ git push origin master
 ```
 This will synchronize your private repository with the class repository.
 
