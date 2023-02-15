@@ -1,4 +1,4 @@
-# CSCI 366 - Fall 2022
+# CSCI 366 - Spring 2023
 
 This is the root folder for the CSCI 366 class project.
 
@@ -16,7 +16,7 @@ Please use the following steps to create a *private* copy of this repo for your 
 
 - Create a *private* repository in your own account by
     - Going to <https://github.com/new>
-    - Enter the name `csci-366-fall2022-private`
+    - Enter the name `csci-366-spring2023-private`
     - Select `Private`
     - Navigate to the `Settings` -> `Manage Access` section
     - Add `1cg` as a collaborator
@@ -32,15 +32,15 @@ You can find the github repo url when you look at the repository in github.
 Next, you should add the class repository as an upstream git repo:
 
 ```bash
-$ cd csci-366-fall2022-private
-$ git remote add upstream https://github.com/msu/csci-366-fall2022.git
-$ git pull upstream main
-$ git push origin main
+$ cd csci-366-spring2023-private
+$ git remote add upstream https://github.com/msu/csci-366-spring2023.git
+$ git pull upstream master
+$ git push origin master
 ```
 This will synchronize your private repository with the class repository.
 
 When you want to get an update from the public class repository you can run this command:
 
 ```
-$ git pull upstream main
+$ git pull upstream master
 ``` 
