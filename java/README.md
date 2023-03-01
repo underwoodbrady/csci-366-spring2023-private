@@ -2,7 +2,6 @@
 
 ## Overview
 
-change
 This is the Cloud project for CSCI 366 - Systems.  It is designed to give you an introduction to cloud development and working with the web.
 
 The goal of this project is to build a simple web server that transforms strings.  Since this is not a web programming
